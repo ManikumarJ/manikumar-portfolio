@@ -6,7 +6,7 @@ const projects = [
     title: 'WoodNest - MERN Stack E-Commerce Application',
     description: 'A full-stack e-commerce application built using the MERN stack with secure authentication and product management features.',
     features: ['JWT Authentication', 'Product listing and filtering', 'Shopping cart functionality', 'CRUD operations', 'Admin dashboard', 'Fully responsive design'],
-    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Axios', 'Mongoose'],
+    tech: [  "React.js","Node.js","Express.js","MongoDB","Mongoose","JWT Authentication","bcrypt","Axios","Tailwind CSS"],
     github: 'https://github.com/ManikumarJ/woodnest',
     demo: '#',
     image: woodNestImage
