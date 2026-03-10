@@ -30,7 +30,7 @@ const Skills = () => {
             Technical <span className="text-green-400">Skills</span>
           </h2>
           <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-            Technologies and tools I use to build complete web applications.
+            Technologies and tools I use to develop modern full-stack web applications.
           </p>
         </div>
 
