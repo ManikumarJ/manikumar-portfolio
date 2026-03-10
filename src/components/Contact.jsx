@@ -97,7 +97,7 @@ const Contact = () => {
                       Location
                     </p>
                     <p className="text-lg font-medium text-slate-800 dark:text-slate-200">
-                      Tamil Nadu, India
+                      Chennai, Tamil Nadu, India
                     </p>
                   </div>
                 </div>
