@@ -1,5 +1,6 @@
 import { BsGithub, BsBoxArrowUpRight } from 'react-icons/bs';
 import woodNestImage from '../assets/image/WoodNest-Project-Image.png';
+import jobSculptorImage from '../assets/image/jobsculptor-project-Image.png';
 
 const projects = [
   {
@@ -10,8 +11,37 @@ const projects = [
     github: 'https://github.com/ManikumarJ/woodnest',
     demo: '#',
     image: woodNestImage
+  },
+   {
+    title: 'JobSculptor - AI Resume Analyzer & Job Tracker',
+    description: 'An AI-powered platform that analyzes resumes against job descriptions and helps users track their job applications efficiently.',
+    features: [
+      ' "AI-powered resume analysis with match score against job description"',
+      'Highlights Matched Skills and Missing Keywords',
+      'PDF Resume Upload Support',
+      'Job Tracker to save applications, notes, and match scores',
+      'Secure Authentication with JWT',
+      'Responsive and user-friendly UI'
+    ],
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "Axios",
+      "Tailwind CSS",
+      "Google Gemini AI Integration",
+      "pdf-parse"
+    ],
+    github: '#', 
+    demo: '#', 
+    image: jobSculptorImage // import your project image
   }
 ];
+
+
 
 const Projects = () => {
   return (
