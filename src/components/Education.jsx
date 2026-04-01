@@ -14,6 +14,7 @@ const educationData = [
 ];
 
 const certifications = [
+  'MERN Stack Course - SLA Chennai',
   'Responsive Web Design - SmartCliff Learning Solutions',
   'Git Training - Simplilearn',
   'Complete JavaScript, jQuery, and React Bootcamp - Udemy'
