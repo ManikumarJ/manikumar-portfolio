@@ -35,8 +35,8 @@ const projects = [
       "Google Gemini AI Integration",
       "pdf-parse"
     ],
-    github: '#', 
-    demo: '#', 
+    github: 'https://github.com/ManikumarJ/jobsculptor-ai.git', 
+    demo: 'https://jobsculptor-ai.vercel.app/', 
     image: jobSculptorImage // import your project image
   }
 ];
