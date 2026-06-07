@@ -1,17 +1,10 @@
 import { BsGithub, BsBoxArrowUpRight } from 'react-icons/bs';
 import woodNestImage from '../assets/image/WoodNest-Project-Image.png';
 import jobSculptorImage from '../assets/image/jobsculptor-project-Image.png';
+import NammaChennai from '../assets/image/NammaChennai.png';
 
 const projects = [
-  {
-    title: 'WoodNest - MERN Stack E-Commerce Application',
-    description: 'A full-stack e-commerce application built using the MERN stack with secure authentication and product management features.',
-    features: ['JWT Authentication', 'Product listing and filtering', 'Shopping cart functionality', 'CRUD operations', 'Admin dashboard', 'Fully responsive design'],
-    tech: [  "React.js","Node.js","Express.js","MongoDB","Mongoose","JWT Authentication","bcrypt","Axios","Tailwind CSS"],
-    github: 'https://github.com/ManikumarJ/woodnest',
-    demo: '#',
-    image: woodNestImage
-  },
+
    {
     title: 'JobSculptor - AI Resume Analyzer & Job Tracker',
     description: 'An AI-powered platform that analyzes resumes against job descriptions and helps users track their job applications efficiently.',
@@ -38,7 +31,38 @@ const projects = [
     github: 'https://github.com/ManikumarJ/jobsculptor-ai.git', 
     demo: 'https://jobsculptor-ai.vercel.app/', 
     image: jobSculptorImage // import your project image
+  },
+  {
+    title: 'NammaChennai - Smart Civic Grievance & AI-Powered Governance Platform',
+    description: 'A full-stack MERN-based civic grievance management platform that enables citizens to report, track, and monitor public issues transparently with AI-powered complaint processing and real-time updates.',
+    features: [
+      'Role-based dashboards (Citizen, Councillor, Officer, MLA, Mayor, Commissioner)',
+      'Geolocation-based complaint tracking and ward/zone mapping',
+      'Duplicate complaint detection using proximity-based logic',
+      'Google Gemini AI complaint classification and routing',
+      'English-Tamil translation support',
+      'Real-time updates and notifications with Socket.IO',
+      'Public grievance feed and analytics dashboard',
+      'JWT Authentication & RBAC'
+    ],
+    tech: [
+      'React.js',
+      'Redux Toolkit',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Mongoose',
+      'Socket.IO',
+      'JWT Authentication',
+      'Google Gemini AI',
+      'Tailwind CSS',
+      'Axios'
+    ],
+    github: 'https://github.com/ManikumarJ/NammaChennai-AI-Civic-Governance-Platform',
+    demo: 'https://namma-chennai-ai-civic-governance-p.vercel.app/',
+    image: NammaChennai
   }
+];
 ];
 
 
