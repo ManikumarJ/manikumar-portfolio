@@ -63,7 +63,7 @@ const projects = [
     image: NammaChennai
   }
 ];
-];
+
 
 
 
